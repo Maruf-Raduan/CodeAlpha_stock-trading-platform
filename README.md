@@ -62,7 +62,7 @@ lib/
 1. Clone the repository:
 ```bash
 git clone https://github.com/Maruf-Raduan/CodeAlpha_stock-trading-platform.git
-cd stock-trading-platform
+cd CodeAlpha_stock-trading-platform
 ```
 
 2. Compile all Java files:
@@ -88,7 +88,7 @@ javac -cp ".;../lib/sqlite-jdbc-3.45.0.0.jar" Main.java model/*.java service/*.j
 java -cp ".;../lib/sqlite-jdbc-3.45.0.0.jar" Main
 ```
 
-> **Note for Linux/Mac users**: Replace `;` with `:` in classpath (e.g., `".:../lib/sqlite-jdbc-3.45.0.0.jar"`)
+> **Note for Linux/Mac users**: Replace `;` with `:` in classpath (e.g., ".:../lib/sqlite-jdbc-3.45.0.0.jar")
 
 ## 💡 Usage
 
